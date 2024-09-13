@@ -34,7 +34,7 @@ router.patch("/:profileId", async (req, res) => {
       { new: true }
     );
 
-    // If no profile is found, send a 404 response
+    // If no profile is found, send a 404
     if (!updatedProfile) {
       return res.status(404).json({ error: "Profile not found" });
     }
