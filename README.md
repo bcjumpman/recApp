@@ -14,7 +14,7 @@ Tech Stack:
 ### Non-functional Requirements:
 - availability (uptime 99.99xxx%)
 - low-latency (~300ms)
-- reliable (if x then y ALL THE TIME)
+- reliable 
 
 ### Database design
 - Data: ID(INT), name(STR), age(INT), skills(VARCHAR?), location(STR), email(STR), phone number(NUM), work history(VARCHAR), education(STR), projects/apps(STR), imageURL(STR)
